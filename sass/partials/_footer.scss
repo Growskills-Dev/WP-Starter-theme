@@ -1,0 +1,46 @@
+footer{
+    position: relative;
+    padding: remToPx(30px) 0;
+    @include breakpoint-tablet{
+        padding: remToPx(64px) 0;
+    }
+    @include breakpoint-desktop-small{
+        padding: remToPx(120px) 0;
+    }
+}
+
+.footer-content{
+    .wrapper{
+        display: flex;
+        column-gap: 60px;
+        > div{
+            @include breakpoint-desktop-large {
+                width: 25%;
+            }
+            .header-logo{
+                position: relative;
+                @include breakpoint-desktop-large {
+                    width: remToPx(164px);
+                }
+            }
+            li{
+                padding-left: 0!important;
+            }
+            h3{
+                font-size: remToPx(16px);
+                line-height: 1;
+                margin-bottom: remToPx(4px);
+            }
+        }
+        h2, h3, h4, p, a{
+            color: $color-black;
+        }
+    }
+}
+
+.footer-copyright{
+    margin-top: 50px;
+    .wrapper{
+        text-align: center;
+    }
+}
