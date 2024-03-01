@@ -21,6 +21,7 @@
     height: 100%;
 }
 
+<<<<<<< HEAD
 .overview-items{
     @include grid-layout(1);
     @include breakpoint-tablet{
@@ -28,6 +29,17 @@
     }
     @include breakpoint-desktop-small{
         @include grid-layout(3);
+=======
+.overview{
+    .wrapper{
+        @include grid-layout(1);
+        @include breakpoint-tablet{
+            @include grid-layout(2);
+        }
+        @include breakpoint-desktop-small{
+            @include grid-layout(3);
+        }
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     }
 }
 

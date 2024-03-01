@@ -37,9 +37,12 @@ header{
     @include breakpoint-desktop-small{
         width: remToPx(100px);
     }
+<<<<<<< HEAD
     svg, img{
         width: 100%;
     }
+=======
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     .fixed & {
         width: remToPx(80px);
     }

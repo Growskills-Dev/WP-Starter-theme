@@ -1,5 +1,9 @@
 footer{
     position: relative;
+<<<<<<< HEAD
+=======
+    background: $color-black;
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     padding: remToPx(30px) 0;
     @include breakpoint-tablet{
         padding: remToPx(64px) 0;
@@ -7,6 +11,7 @@ footer{
     @include breakpoint-desktop-small{
         padding: remToPx(120px) 0;
     }
+<<<<<<< HEAD
 }
 
 .footer-content{
@@ -22,10 +27,20 @@ footer{
                 @include breakpoint-desktop-large {
                     width: remToPx(164px);
                 }
+=======
+
+    .wrapper{
+        @include grid-layout(12, remToPx(30px), remToPx(30px));
+        div{
+            @include grid-column-span(12);
+            @include breakpoint-tablet{
+                @include grid-column-span(6);
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
             }
             li{
                 padding-left: 0!important;
             }
+<<<<<<< HEAD
             h3{
                 font-size: remToPx(16px);
                 line-height: 1;
@@ -43,4 +58,11 @@ footer{
     .wrapper{
         text-align: center;
     }
+=======
+        }
+        h2, h3, h4, p, a{
+            color: $color-white;
+        }
+    }
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
 }

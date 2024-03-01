@@ -384,6 +384,7 @@ form input[type=submit]:hover {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 #site-container .gform_wrapper .gchoice {
   padding-left: 30px;
 }
@@ -420,6 +421,8 @@ form input[type=submit]:hover {
   cursor: pointer;
 }
 
+=======
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
 header {
   transition: all 0.3s ease-in-out;
   position: fixed;
@@ -460,9 +463,12 @@ header.fixed {
     width: 6.25rem;
   }
 }
+<<<<<<< HEAD
 .header-logo svg, .header-logo img {
   width: 100%;
 }
+=======
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
 .fixed .header-logo {
   width: 5rem;
 }
@@ -492,14 +498,22 @@ header.fixed {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .overview-items {
+=======
+.overview .wrapper {
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem 2rem;
   gap: 2rem 2rem;
 }
 @media (min-width: 48rem) {
+<<<<<<< HEAD
   .overview-items {
+=======
+  .overview .wrapper {
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem 2rem;
@@ -507,7 +521,11 @@ header.fixed {
   }
 }
 @media (min-width: 60rem) {
+<<<<<<< HEAD
   .overview-items {
+=======
+  .overview .wrapper {
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem 2rem;
@@ -644,7 +662,11 @@ header.fixed {
     height: 1.875rem;
     background: #fff;
   }
+<<<<<<< HEAD
   .header-menu-large li.current-menu-item > a {
+=======
+  .header-menu-large li.current-menu-item a {
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     pointer-events: none;
   }
   .header-menu-large li.menu-item-has-children:hover > ul {
@@ -731,6 +753,10 @@ header.fixed {
 
 footer {
   position: relative;
+<<<<<<< HEAD
+=======
+  background: #000;
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
   padding: 1.875rem 0;
 }
 @media (min-width: 48rem) {
@@ -743,6 +769,7 @@ footer {
     padding: 7.5rem 0;
   }
 }
+<<<<<<< HEAD
 
 .footer-content .wrapper {
   display: flex;
@@ -778,6 +805,27 @@ footer {
 }
 .footer-copyright .wrapper {
   text-align: center;
+=======
+footer .wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1.875rem 1.875rem;
+  gap: 1.875rem 1.875rem;
+}
+footer .wrapper div {
+  grid-column-end: span 12;
+}
+@media (min-width: 48rem) {
+  footer .wrapper div {
+    grid-column-end: span 6;
+  }
+}
+footer .wrapper div li {
+  padding-left: 0 !important;
+}
+footer .wrapper h2, footer .wrapper h3, footer .wrapper h4, footer .wrapper p, footer .wrapper a {
+  color: #fff;
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,7 +9,11 @@
     "acf": {
         "mode": "auto",
         "renderTemplate": "render.php",
+<<<<<<< HEAD
         "postTypes": []
+=======
+        "postTypes": ["page", "post"]
+>>>>>>> b0efa286e0d088018486fe025f782af35396f090
     },
     "render_callback": "my_acf_block_render_callback",
     "align": "full"
