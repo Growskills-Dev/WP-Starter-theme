@@ -1,5 +1,4 @@
     <footer>
-<<<<<<< HEAD
         <div class="footer-content">
             <div class="wrapper">
                 <div>
@@ -41,20 +40,6 @@
         <div class="footer-copyright">
             <div class="wrapper">
                 <p>&copy; <?= date('Y'); ?> | <?= get_bloginfo('name'); ?></p>
-=======
-        <div class="wrapper">
-            <div>
-                <a class="header-logo" href="/"><?= svg('logo'); ?></a>
-            </div>
-            <div>
-                <?php
-                    $adress = get_field('adress', 'option');
-                    if($adress) : ?>
-                    <div class="text-container">
-                        <?= $adress; ?>
-                    </div>
-                <?php endif; ?>
->>>>>>> b0efa286e0d088018486fe025f782af35396f090
             </div>
         </div>
     </footer>
