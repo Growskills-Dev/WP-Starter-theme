@@ -225,9 +225,7 @@ function ajax_load_more() {
     $args = array(
         'post_type' => $post_type,
         'posts_per_page' => $posts_per_page,
-        //changes here
         'paged' => $paged,
-        //end changes here
         'order' => 'ASC',
         'meta_query' => array(
             array(
