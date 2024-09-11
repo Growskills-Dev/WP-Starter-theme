@@ -9,7 +9,7 @@ if($show_title || !empty($body)) : ?>
             <?= ($show_title ? '<h1>' . get_the_title() . '</h1>' : null); ?>
             <div class="text-container">
                 <?= $body; ?>
-                <?= ($button ? '<a class="btn" href="'. $button['url'] .'">'. $button['title'] .'</a>' : null); ?>
+                <?= ($button ? '<a class="btn-red" href="'. $button['url'] .'">'. $button['title'] .'</a>' : null); ?>
             </div>
         </div>
     </section>
